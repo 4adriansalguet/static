@@ -181,6 +181,9 @@ header {
 }
 
 /* SECTION 3 */
+.testing{
+    background: red;
+}
 
 .___section_3{
     position: relative;

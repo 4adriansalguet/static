@@ -56,11 +56,6 @@
 	</div>
 </section> 
 
-<section>
-	<h6>WHAT WE DO</h6>
-	<p><span>Our</span> Gallery</p>
-</section>
-
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="<?php echo URL; ?>public/scripts/sendform.js" data-view="<?php echo $view; ?>" id="sendform"></script>

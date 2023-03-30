@@ -62,13 +62,17 @@
 		</div>
 
 
-        <div class="lawn-container">
-			<img src="./public/images/gallery/house4fw.png" alt="">
-			<div class="lawn-content">
-				<h3>Restore and Renovate</h3>
-				<p>At Garcia painting, we work to restore, renovate and create the environment that best suits your lifestyle. 
-                    <br> <br>
-                We are committed to professionalism, creative ideas with color and design, respect for your property and time, and a pleasant process with a job well done.
+        <div class="kitchen-container">
+			<img src="./public/images/gallery/kitchen.fw.png" alt="">
+			<div class="kitchen-des">
+				<h3>WELCOME TO</h3>
+				<h4 class="title">GARCIA PAINTING</h4>
+				<P class="sub-title">A TERRIFIC INVESTMENT</P>
+				<p>
+                A new coat of paint adds value and protection to any kind of property, 
+                whether that property is commercial, residential or industrial. <br> <br>  
+                However, the value of that property will only be enhanced by a good paint job, 
+                the kind that’s provided by professionals like Garcia Painting.
                 </p>
 				<a href="#">LEARN MORE</a>
 			</div>
@@ -82,8 +86,8 @@
             <div class="pictures_left">  
                 <img src="./public/images/icons/dining.fw.png" alt="">
                 <img src="./public/images/icons/outdoor.fw.png" alt="">
-                <div>
-                <img src="./public/images/icons/lounge.fw.png" alt="">
+                <div class="pakyu">
+                    <img src="./public/images/icons/lounge.fw.png" alt="">
                 </div>
             </div>
 

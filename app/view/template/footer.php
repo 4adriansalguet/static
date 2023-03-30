@@ -1,41 +1,26 @@
-<footer>
-	<div id="footer">
-		<div class="container">
-			<div class="bg-container bg-primary">
-				<div class="row text-center flex-md-row flex-column">
-					<div class="col-md-4">
-						<small>Phone</small>
-						<a href="tel:<?php $this->info("phone"); ?>"><?php $this->info("phone"); ?></a>
-						<a href="tel:<?php $this->info("phone2"); ?>"><?php $this->info("phone2"); ?></a>
-					</div>
-					<div class="col-md-4">
-						<small>Email</small>
-						<a href="mailto:<?php $this->info("email"); ?>"><?php $this->info("email"); ?></a>
-					</div>
-					<div class="col-md-4">
-						<small>Location</small>
-						<span><?php $this->info("address"); ?></span>
-					</div>
-				</div>
+<section id="section_4">
+        <div>
+            <h3>WHAT WE DO</h3>
+            <p><span>Our</span>Gallery</p>
+        </div>
+    </section> 
 
-				<!-- <div class="d-flex justify-content-space-between align-items-center">
-					<div class="col-md-4">
-						© <?php echo date("Y") . ' '; $this->info("company_name"); ?> All Rights Reserved. 
-						<?php if( $this->siteInfo['policy_link'] ): ?>
-							<a href="<?php $this->info("policy_link"); ?>">Privacy Policy</a>. 
-						<?php endif ?>
-					</div>
-					<div class="col-md-4 d-flex align-items-center text-right">
-						<img class="lazy loaded img-fluid d-inline" src="public/images/hd-logo.png" alt="Footer Logo">
-						<a href="http://technodreamoutsourcing.com/"> Web Design</a> Done by 
-						<a href="http://technodreamoutsourcing.com/"> TechnoDream LLC</a>
-					</div>
-				</div> -->
-			</div>
-		</div>
-	</div>
-</footer>
+    <section id="section_5">
+        <div class="footer">
 
+        <div class="footer-des">
+            <h3 class="sub-line"><span>Contact</span> Us</h3>
+            <p>PROVIDE US ANY WRITTEN ESTIMATE, AND WE'LL BEAT IT BY 10%</p>
+            <img src="./public/images/icons/logo.fw.png" alt="">
+        </div>
+
+        </div>
+
+    </section> 
+
+
+
+	
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="<?php echo URL; ?>public/scripts/sendform.js" data-view="<?php echo $view; ?>" id="sendform"></script>
 <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  -->

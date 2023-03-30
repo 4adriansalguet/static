@@ -1,29 +1,3 @@
-    <section id="section_3">
-        <div class="top">
-            <p>WHAT WE DO</p>
-            <img src="./public/images/gallery/redline.fw.png" alt="">
-            <h2><span>Our</span> Services</h2>
-        </div>
-        <div class="bottom">
-            <div class="picture-container">
-                <img src="./public/images/gallery/house1.fw.png" alt="">
-                <h2>Interior Painting</h2>
-                <a href="#">LEARN MORE</a>
-            </div>
-
-            <div class="picture-container">
-                <img src="./public/images/gallery/house2.fw.png" alt="">
-                <h2>Interior Painting</h2>
-                <a href="#">LEARN MORE</a>
-            </div>
-
-            <div class="picture-container">
-                <img src="./public/images/gallery/house3.fw.png" alt="">
-                <h2>Interior Painting</h2>
-                <a href="#">LEARN MORE</a>
-            </div>
-        </div>
-	</section>
 
     <section class="___section_3">
         <div class="___section_3_container">
@@ -57,14 +31,19 @@
     </section>
 
 	<section id="section_4">
+
 		<div class="kitchen-container">
 			<img src="./public/images/gallery/kitchen.fw.png" alt="">
 			<div class="kitchen-des">
 				<h3>WELCOME TO</h3>
 				<h4 class="title">GARCIA PAINTING</h4>
 				<P class="sub-title">A TERRIFIC INVESTMENT</P>
-				<!-- <img src="./public/images/gallery/redline.fw.png" alt=""> -->
-				<img src="./public/images/gallery/linetext.fw.png" alt="">
+				<p>
+                A new coat of paint adds value and protection to any kind of property, 
+                whether that property is commercial, residential or industrial. <br> <br>  
+                However, the value of that property will only be enhanced by a good paint job, 
+                the kind that’s provided by professionals like Garcia Painting.
+                </p>
 				<a href="#">LEARN MORE</a>
 			</div>
 		</div>
@@ -72,11 +51,46 @@
 		<div class="wall-container">
 			<div class="wall-des">
 			<h3 class="title">Extensive Experience</h3>
-				<!-- <img src="./public/images/gallery/redline.fw.png" alt=""> -->
-				<img src="./public/images/gallery/linetext.fw.png" alt="">
+            <p>
+            Established in 2008, we’ve got extensive experience and the elite expertise that comes along with it. 
+            Let us be your one and only choice for all sorts of painting projects. <br> <br>
+            As a locally owned company, we are more than happy to work with fellow members of the Gilroy community.
+            </p>            
 				<a class="sub-title" href="#">LEARN MORE</a>
 			</div>
 			<img src="./public/images/gallery/housefw.png" alt="">
 		</div>
 
+
+        <div class="lawn-container">
+			<img src="./public/images/gallery/house4fw.png" alt="">
+			<div class="lawn-content">
+				<h3>Restore and Renovate</h3>
+				<p>At Garcia painting, we work to restore, renovate and create the environment that best suits your lifestyle. 
+                    <br> <br>
+                We are committed to professionalism, creative ideas with color and design, respect for your property and time, and a pleasant process with a job well done.
+                </p>
+				<a href="#">LEARN MORE</a>
+			</div>
+		</div>
 	</section>
+
+    <!-- <section id="section_4">
+        <div>
+            <h3>WHAT WE DO</h3>
+            <p><span>Our</span>Gallery</p>
+        </div>
+    </section> 
+
+    <section id="section_5">
+        <div class="footer">
+
+        <div class="footer-des">
+            <h3 class="sub-line"><span>Contact</span> Us</h3>
+            <p>PROVIDE US ANY WRITTEN ESTIMATE, AND WE'LL BEAT IT BY 10%</p>
+            <img src="./public/images/icons/logo.fw.png" alt="">
+        </div>
+
+        </div>
+
+    </section> -->

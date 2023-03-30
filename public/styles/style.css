@@ -91,6 +91,32 @@ header {
     font-size: 28px;
 }
 
+#home .home-main .home-content .button {
+    background-color: #212121;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 0.5s ease;
+}
+
+#home .home-main .home-content .button:hover {
+    background-color: #EDEDED;
+    color: #141414;
+    font-weight: 700;
+}
+
+#home .home-main .home-content a:hover {
+    font-size: 18px;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+#home .home-main .home-content a {
+    font-weight: 600;
+    transition: 0.5s ease;
+    letter-spacing: 2px;
+}
+
 #home {
     width: 100%;
     padding: 10px 0;
@@ -187,8 +213,9 @@ header {
 .___section_3{
     position: relative;
     background: url('../images/gallery/opacity-background.fw.png') no-repeat;
+    background-size: cover;
     background-color: #000;
-    padding: 100px;
+    padding: 80px;
     width: 100%;
 }
 
@@ -245,6 +272,12 @@ header {
     background: url('../images/gallery/house3.fw.png') no-repeat;
 }
 
+
+.___section_3 .___section_3_container h3 {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 0;
+}
 /* ----------------------- */
 
 /* SECTION 4 */
@@ -437,6 +470,7 @@ header {
 #gallery_section {
     width: 100%;
     background-color: #000;
+    text-align: center;
 }
 
 .gallery_container {
@@ -465,6 +499,12 @@ header {
 
 .pictures_right .sala {
     transform: translateY(-33px);;
+}
+
+#gallery_section h3 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 

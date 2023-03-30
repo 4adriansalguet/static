@@ -2,7 +2,7 @@
     <section class="___section_3">
         <div class="___section_3_container">
             <h3>WHAT WE DO</h3>
-            <h2>Our <span>Services</span></h2>
+            <h2><span>Our</span>Services</h2>
             <div class="___section_3_flex">
 
                 <div class="__section_3_card __section_3_card_bg_1">
@@ -91,7 +91,7 @@
                 <img src="./public/images/icons/suburbs.fw.png" alt="">
                 <div class="strp_subr">
                 <img class="stripe" src="./public/images/icons/stripehouse.fw.png" alt="">
-                <img src="./public/images/icons/salaset.fw.png  " alt="">
+                <img  class="sala" src="./public/images/icons/salaset.fw.png  " alt="">
                 </div>
             </div>
             

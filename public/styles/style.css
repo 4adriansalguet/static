@@ -277,7 +277,27 @@ header {
     font-size: 18px;
     color: #FFFFFF;
     margin-top: 0;
+    line-height: 50px;
 }
+
+.___section_3_container h2 {
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.___section_3_container span {
+    color: #C9131F;
+}
+
+.___section_3_container .services_after::after {
+    content: '';
+    display: block;
+    width: 108px;
+    height: 3px;
+    background-color: #C9161F;
+    margin: 0 auto;
+}
+
 /* ----------------------- */
 
 /* SECTION 4 */
@@ -308,12 +328,20 @@ header {
     line-height: 100px;
 }
 
+.kitchen-container .kitchen-des p {
+    margin-top: 25px;
+}
+
+.kitchen-container .title .gal-col3 {
+    line-height:  ;
+}
+
 .kitchen-container .title {
     font-family: 'Montserrat', sans-serif;
     color: #EDEDED;
     font-size: 64px;
     position: relative;
-    line-height: 50px;
+    line-height: 80px;
 }
 
 .kitchen-container .title::after {
@@ -471,6 +499,7 @@ header {
     width: 100%;
     background-color: #000;
     text-align: center;
+    padding-top: 50px;
 }
 
 .gallery_container {
@@ -501,7 +530,7 @@ header {
     height: 100%;
     width: 50%;
 }
-.pakyu img{
+.pkyu img{
     height: 100%;
 }
 
@@ -509,6 +538,21 @@ header {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 600;
+}
+
+#gallery_section span {
+    color: #C9131F;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+#gallery_section p {
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 
@@ -667,6 +711,27 @@ header {
     font-size: 18px;
     font-weight: 500;
     color: #fff;
+    transition: 0.5s ease;
+    letter-spacing: 1.5px;
+}
+
+.menu_choices a:hover {
+    font-size: 19px;
+    transition: 0.5s ease;
+}
+
+.menu_choices a.home_menu {
+    background-color: #212121;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 0.5s ease;
+}
+
+.menu_choices .home_menu:hover {
+    background-color: #FFFFFF;
+    font-weight: 700;
+    color: #000;
+    transition: 0.5s ease;
 }
 
 .copyright {
@@ -762,6 +827,46 @@ header {
         display: none;
     }
 }
+
+/* desktop */
+
+@media screen and (max-width: 1920px) {
+    .suburbs {
+        width: 100%;
+    }
+}
+
+/* @media screen and (max-width: 1735px;) {
+    #section_2 {
+        width: 100%;
+        padding: 100px;
+    }
+} */
+
+@media screen and (max-width: 1640px) {
+    #section_4 .kitchen-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #section_4 .wall_container {
+        width: 100%;
+        display: flex;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #section_4 .house_yard {
+        width: 100%;
+        display: flex;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
 
 /* mobile */
 @media screen and (max-width: 995px) { 

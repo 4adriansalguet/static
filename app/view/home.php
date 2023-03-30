@@ -74,23 +74,29 @@
 			</div>
 		</div>
 	</section>
-
-    <!-- <section id="section_4">
-        <div>
+     <section id="gallery_section">
             <h3>WHAT WE DO</h3>
             <p><span>Our</span>Gallery</p>
-        </div>
+
+            <div class="gallery_container">
+            <div class="pictures_left">  
+                <img src="./public/images/icons/dining.fw.png" alt="">
+                <img src="./public/images/icons/outdoor.fw.png" alt="">
+                <div>
+                <img src="./public/images/icons/lounge.fw.png" alt="">
+                </div>
+            </div>
+
+            <div class="pictures_right">
+                <img src="./public/images/icons/suburbs.fw.png" alt="">
+                <div class="strp_subr">
+                <img class="stripe" src="./public/images/icons/stripehouse.fw.png" alt="">
+                <img src="./public/images/icons/salaset.fw.png  " alt="">
+                </div>
+            </div>
+            
+            </div>
+            
     </section> 
 
-    <section id="section_5">
-        <div class="footer">
 
-        <div class="footer-des">
-            <h3 class="sub-line"><span>Contact</span> Us</h3>
-            <p>PROVIDE US ANY WRITTEN ESTIMATE, AND WE'LL BEAT IT BY 10%</p>
-            <img src="./public/images/icons/logo.fw.png" alt="">
-        </div>
-
-        </div>
-
-    </section> -->

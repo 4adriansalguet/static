@@ -1,26 +1,67 @@
-<section id="section_4">
-        <div>
-            <h3>WHAT WE DO</h3>
-            <p><span>Our</span>Gallery</p>
-        </div>
-    </section> 
 
     <section id="section_5">
-        <div class="footer">
-
+        
+	<div class="footer_container">
         <div class="footer-des">
             <h3 class="sub-line"><span>Contact</span> Us</h3>
             <p>PROVIDE US ANY WRITTEN ESTIMATE, AND WE'LL BEAT IT BY 10%</p>
             <img src="./public/images/icons/logo.fw.png" alt="">
         </div>
 
-        </div>
+		<div class="social_media">
+			<div class="mail">
+				<a href="#"><img src="./public/images/icons/footerphonefw.fw.png" alt=""></a>
+				<h4>EMAIL</h4>
+				<p type="email">mr_garcia_m@yahoo.com</p>
+			</div>
 
-    </section> 
+			<div class="telephone">
+				<a href="#"><img src="./public/images/icons/footerphone.fw.png" alt=""></a>
+				<h4>PHONE</h4>
+				<p>(408) 413-9093</p>
+			</div>
+
+			<div class="location">
+				<a href="#"><img src="./public/images/icons/footerloc.fw.png" alt=""></a>
+				<h4>LOCATION</h4>
+				<p>Garcia Painting Gilroy, CA</p>
+			</div>
+		</div>
+
+			<div class="payment_container">
+				<div class="payment_choices">
+					<h5>WE ACCEPT</h5>
+					<img src="./public/images/icons/payments.fw.png" alt="">
+				</div>
+					
+				<div class="soc_med">
+					<h5>FOLLOW US:</h5>
+					<img src="./public/images/icons/socmed.fw.png" alt="">
+				</div>
+			</div>
+	</div>
+
+	<div class="menu_footer_container">
+		<div class="menu_choices">
+			<a class="home_menu" href="#">HOME</a>
+			<a href="#">ABOUT US</a>
+			<a href="#">SERVICES</a>
+			<a href="#">GALLERY</a>
+			<a href="#">CONTACT US</a>
+		</div>
+	</div>
+
+	<div class="copyright"> 
+		<h5>GARCIA PAINTING © 2020. ALL RIGHTS RESERVED</h5>
+	</div>
+</section> 
+
+<section>
+	<h6>WHAT WE DO</h6>
+	<p><span>Our</span> Gallery</p>
+</section>
 
 
-
-	
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="<?php echo URL; ?>public/scripts/sendform.js" data-view="<?php echo $view; ?>" id="sendform"></script>
 <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  -->

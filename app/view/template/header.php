@@ -14,15 +14,12 @@
 	<link href="<?php echo URL; ?>public/styles/style.css" rel="stylesheet"> <!-- bawal -->
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" /> <!-- bawal -->
 	<link rel="stylesheet" href="<?php echo URL; ?>public/fancybox/source/jquery.fancybox.css" media="screen" /> <!-- bawal -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /> <!-- bawal -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<?php $this->helpers->analytics(); ?><!-- bawal -->
 </head>
 
 <body <?php $this->helpers->bodyClasses($view); ?>> <!-- bawal -->
 <?php $this->checkSuspensionHeader(); ?> <!-- bawal -->
-
-<!-- <img class="close" src="<?php echo URL; ?>public/images/icons/close.png" alt="menu"> -->
-<!-- <li <?php $this->helpers->isActiveMenu("home"); ?>><a href="<?php echo URL ?>">Home</a></li> -->
 
 	<header>
 		<div id="header">
@@ -38,12 +35,11 @@
 			</div>
 		</div>
 
-		<div id="home">
-			<div class="home-main">
-				<div class="home-content">
+		<div id="menu">
+			<div class="menu-main">
+				<div class="menu-content">
 					<img src="./public/images/icons/logo.fw.png" alt="">
 					<nav>
-						<a href="#" id="pull">MENU</a>
 						<ul>
 			                <li <?php $this->helpers->isActiveMenu("home"); ?> class="btn"><a  href="home#content">HOME</a></li>
 			                <li <?php $this->helpers->isActiveMenu("about"); ?>><a href="about#content">ABOUT US</a></li>
@@ -53,16 +49,9 @@
 			                <li <?php $this->helpers->isActiveMenu("contact"); ?>><a href="contact#content">CONTACT US</a></li>
 						</ul>
 					</nav>
-					<!-- <a class="button" href="#">HOME</a>
-					<a href="#">ABOUT US</a>
-					<a href="#">SERVICES</a>
-					<a href="#">GALLERY</a>
-					<a href="#">CONTACT US</a>
-					<nav>
-						<ul>
-							<li></li>
-						</ul>
-					</nav> -->
+					<button class="hamburger">
+						<div class="bar"></div>
+					</button>
 				</div>
 			</div>
 		</div>

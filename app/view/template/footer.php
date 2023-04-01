@@ -1,26 +1,26 @@
 <section id="footer">
 
 	<div class="footer_container">
-		<div class="footer-des">
+		<div data-aos="fade-up" data-aos-delay="300"  class="footer-des">
 			<h3 class="sub-line"><span>Contact</span> Us</h3>
 			<p>PROVIDE US ANY WRITTEN ESTIMATE, AND WE'LL BEAT IT BY 10%</p>
-			<img src="./public/images/icons/logo.fw.png" alt="">
+			<img data-aos="fade-up" data-aos-delay="300" src="./public/images/icons/logo.fw.png" alt="">
 		</div>
 
 		<div class="social_media">
-			<div class="mail">
+			<div data-aos="fade-left" data-aos-delay="400" class="mail">
 				<a href="#"><img src="./public/images/icons/footerphonefw.fw.png" alt=""></a>
 				<h4>EMAIL</h4>
 				<p type="email">mr_garcia_m@yahoo.com</p>
 			</div>
 
-			<div class="telephone">
+			<div data-aos="fade-up" data-aos-delay="300" class="telephone">
 				<a href="#"><img src="./public/images/icons/footerphone.fw.png" alt=""></a>
 				<h4>PHONE</h4>
 				<p>(408) 413-9093</p>
 			</div>
 
-			<div class="location">
+			<div data-aos="fade-right" data-aos-delay="400" class="location">
 				<a href="#"><img src="./public/images/icons/footerloc.fw.png" alt=""></a>
 				<h4>LOCATION</h4>
 				<p>Garcia Painting Gilroy, CA</p>
@@ -28,12 +28,12 @@
 		</div>
 
 		<div class="payment_container">
-			<div class="payment_choices">
+			<div data-aos="fade-right" data-aos-delay="300" class="payment_choices">
 				<h5>WE ACCEPT</h5>
 				<img src="./public/images/icons/payments.fw.png" alt="">
 			</div>
 
-			<div class="soc_med">
+			<div data-aos="fade-left" data-aos-delay="300" class="soc_med">
 				<h5>FOLLOW US:</h5>
 				<img src="./public/images/icons/socmed.fw.png" alt="">
 			</div>
@@ -42,7 +42,7 @@
 
 	<div class="menu_footer_container">
 		<div class="menu_choices">
-			<a class="home_menu" href="#">HOME</a>
+			<a <?php $this->helpers->isActiveMenu("home"); ?> class="home_menu" href="#">HOME</a>
 			<a href="#">ABOUT US</a>
 			<a href="#">SERVICES</a>
 			<a href="#">GALLERY</a>

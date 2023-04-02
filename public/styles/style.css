@@ -164,6 +164,7 @@ header.is-scrolling {
 }
 .menu-content img{
     transition: 0.5s;
+    cursor: pointer;
 }
 header.is-scrolling .menu-content img {
     width: 10%;

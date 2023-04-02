@@ -144,6 +144,12 @@ body {
     border: 0;
 }
 
+.inner-pages{
+    background: #FFFFFF;
+    width: 100%;
+    padding: 50px 30px;
+}
+
 /* Header */
 header {
     width: 100%;

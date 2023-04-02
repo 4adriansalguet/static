@@ -17,7 +17,7 @@
         <h2 data-aos="fade-down" data-aos-delay="200"> <div class="text_red">Our</div> Services</h2>
         <div class="___section_3_flex">
 
-            <div class="__section_3_card __section_3_card_bg_1" data-aos="fade-left" data-aos-delay="500">
+            <div class="__section_3_card __section_3_card_bg_1" data-aos="fade-left" data-aos-delay="100">
                 <div class="__section_3_card_body">
                     <h2>Interior Painting</h2>
                     <div class="___section_3_btn">
@@ -26,7 +26,7 @@
                 </div>
             </div>
 
-            <div class="__section_3_card __section_3_card_bg_2" data-aos="fade-up" data-aos-delay="100">
+            <div class="__section_3_card __section_3_card_bg_2" data-aos="fade-up" data-aos-delay="50">
                 <div class="__section_3_card_body">
                     <h2>Interior Painting</h2>
                     <div class="___section_3_btn">
@@ -35,7 +35,7 @@
                 </div>
             </div>
 
-            <div class="__section_3_card __section_3_card_bg_3" data-aos="fade-right" data-aos-delay="500">
+            <div class="__section_3_card __section_3_card_bg_3" data-aos="fade-right" data-aos-delay="100">
                 <div class="__section_3_card_body">
                     <h2>Interior Painting</h2>
                     <div class="___section_3_btn">
@@ -50,8 +50,8 @@
 <!-- font-size: clamp(0.5rem, 0.5rem + 17.0313vw, 20.9375rem); -->
 
 <section id="section_4">
-    <img data-aos="fade-right" data-aos-delay="400" src="public/images/common/kitchen.jpg" alt="">
-    <div data-aos="fade-right" data-aos-delay="200" class="section_4_content">
+    <img data-aos="fade-right" data-aos-delay="50" src="public/images/common/kitchen.jpg" alt="">
+    <div data-aos="fade-down" data-aos-delay="50" class="section_4_content">
         <h3>WELCOME TO</h3>
         <h4>GARCIA PAINTING</h4>
         <hr class="red_line">
@@ -63,19 +63,19 @@
 </section>
 
 <section id="section_5">
-    <div data-aos="fade-right" data-aos-delay="400" class="section_5_content">
+    <div data-aos="fade-down" data-aos-delay="50" class="section_5_content">
         <h4>Extensive experience</h4>
         <hr class="red_line">
         <p class="text">Established in 2008, we’ve got extensive experience and the elite expertise that comes along with it. Let us be your one and only choice for all sorts of painting projects. 
         <span class="br"></span> As a locally owned company, we are more than happy to work with fellow members of the Gilroy community.</p>
         <a href="#" class="btn-secondary">LEARN MORE</a>
     </div>
-    <img data-aos="fade-left" data-aos-delay="600" src="public/images/common/wall.jpg" alt="">
+    <img data-aos="fade-left" data-aos-delay="50" src="public/images/common/wall.jpg" alt="">
 </section>
 
 <section id="section_6">
-    <img data-aos="fade-right" data-aos-delay="600" src="public/images/common/lawn.jpg" alt="">
-    <div data-aos="fade-right" data-aos-delay="800"class="section_6_content">
+    <img data-aos="fade-right" data-aos-delay="50" src="public/images/common/lawn.jpg" alt="">
+    <div data-aos="fade-down" data-aos-delay="50"class="section_6_content">
         <h4>Restore and renovate</h4>
         <hr class="red_line">
         <p class="section_6_sub_title">A TERRIFIC investment</p>
@@ -86,7 +86,7 @@
 </section>
 
 
-<section data-aos="fade-up" data-aos-delay="600" id="gallery_section">
+<section data-aos="fade-up" data-aos-delay="100" id="gallery_section">
     <h3>WHAT WE DO</h3>
     <p><span>Our</span> Gallery</p>
 
@@ -94,16 +94,16 @@
         <div class="gallery_parent_flex">
             <div class="gallery_right">
                 <div class="gallery_right_flex">
-                    <img data-aos="fade-up" data-aos-delay="500" src="public/images/common/kitchen2.jpg" alt="1">
-                    <img data-aos="fade-up" data-aos-delay="500" src="public/images/common/labas.jpg" alt="2">
+                    <img data-aos="fade-up" data-aos-delay="50" src="public/images/common/kitchen2.jpg" alt="1">
+                    <img data-aos="fade-up" data-aos-delay="100" src="public/images/common/labas.jpg" alt="2">
                 </div>
-                <img data-aos="fade-up" data-aos-delay="500" src="public/images/common/sala.jpg" alt="3">
+                <img class="gallery_right_bottom_img" data-aos="fade-up" data-aos-delay="70" src="public/images/common/sala.jpg" alt="3">
             </div>
             <div class="gallery_left">
-                <img data-aos="fade-up" data-aos-delay="500" src="public/images/common/labas2.jpg" alt="4">
+                <img class="gallery_right_top_img" data-aos="fade-up" data-aos-delay="70" src="public/images/common/labas2.jpg" alt="4">
                 <div class="gallery_left_flex">
-                    <img data-aos="fade-up" data-aos-delay="500" src="public/images/common/stripe.jpg" alt="5">
-                    <img data-aos="fade-up" data-aos-delay="500" src="public/images/common/sala2.jpg" alt="5">
+                    <img data-aos="fade-up" data-aos-delay="100" src="public/images/common/stripe.jpg" alt="5">
+                    <img data-aos="fade-up" data-aos-delay="50" src="public/images/common/sala2.jpg" alt="5">
                 </div>
             </div>
         </div>

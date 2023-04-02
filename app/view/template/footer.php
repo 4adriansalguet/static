@@ -7,20 +7,20 @@
 			<img data-aos="fade-up" data-aos-delay="300" src="./public/images/icons/logo.fw.png" alt="">
 		</div>
 
-		<div class="social_media">
-			<div data-aos="fade-left" data-aos-delay="400" class="mail">
+		<div class="contact_information">
+			<div class="ci_col mail" data-aos="fade-left" data-aos-delay="400">
 				<a href="#"><img src="./public/images/icons/footerphonefw.fw.png" alt=""></a>
 				<h4>EMAIL</h4>
 				<p type="email">mr_garcia_m@yahoo.com</p>
 			</div>
 
-			<div data-aos="fade-up" data-aos-delay="300" class="telephone">
+			<div class="ci_col telephone" data-aos="fade-up" data-aos-delay="300">
 				<a href="#"><img src="./public/images/icons/footerphone.fw.png" alt=""></a>
 				<h4>PHONE</h4>
 				<p>(408) 413-9093</p>
 			</div>
 
-			<div data-aos="fade-right" data-aos-delay="400" class="location">
+			<div class="ci_col location" data-aos="fade-right" data-aos-delay="400">
 				<a href="#"><img src="./public/images/icons/footerloc.fw.png" alt=""></a>
 				<h4>LOCATION</h4>
 				<p>Garcia Painting Gilroy, CA</p>

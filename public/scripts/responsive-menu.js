@@ -1,11 +1,11 @@
 window.onload = function () {
-	window.addEventListener('scroll', function (e) {
-		if (window.pageYOffset > 100) {
-			document.querySelector("header").classList.add('is-scrolling');
-		} else {
-			document.querySelector("header").classList.remove('is-scrolling');
-		}
-	});
+	// window.addEventListener('scroll', function (e) {
+	// 	if (window.pageYOffset > 100) {
+	// 		document.querySelector("header").classList.add('is-scrolling');
+	// 	} else {
+	// 		document.querySelector("header").classList.remove('is-scrolling');
+	// 	}
+	// });
 
 	const menu_btn = document.querySelector('.hamburger');
 	const mobile_menu = document.querySelector('.menu-content nav');
@@ -20,13 +20,14 @@ window.onload = function () {
 		}
 		
 	});
+
+	// window.onresize = function(e){
+	// 	if(e.target.innerWidth < 995){
+	// 		let menu_btn = document.querySelector('.hamburger');
+	// 		let menu = document.querySelector('.menu-content nav');
+	// 		menu_btn.classList.remove('is-active');
+	// 		menu.style.transform = 'unset';
+	// 	}
+	// }
 }
 
-window.onresize = function(e){
-	if(e.target.innerWidth > 995){
-		let menu_btn = document.querySelector('.hamburger');
-		let menu = document.querySelector('.menu-content nav');
-		menu_btn.classList.remove('is-active');
-		menu.style.transform = 'translateY(-130%)';
-	}
-}

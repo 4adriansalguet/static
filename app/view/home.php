@@ -14,32 +14,40 @@
     <div class="___section_3_container">
         <h3 data-aos="fade-up" data-aos-delay="100">WHAT WE DO</h3>
         <hr class="red_line">
-        <h2 data-aos="fade-down" data-aos-delay="200"><span>Our</span> Services</h2>
+        <h2 data-aos="fade-down" data-aos-delay="200"> <div class="text_red">Our</div> Services</h2>
         <div class="___section_3_flex">
 
             <div class="__section_3_card __section_3_card_bg_1" data-aos="fade-left" data-aos-delay="500">
                 <div class="__section_3_card_body">
                     <h2>Interior Painting</h2>
-                    <a href="#" class="btn">LEARN MORE</a>
+                    <div class="___section_3_btn">
+                        <a href="#" class="btn">LEARN MORE</a>
+                    </div>
                 </div>
             </div>
 
             <div class="__section_3_card __section_3_card_bg_2" data-aos="fade-up" data-aos-delay="100">
                 <div class="__section_3_card_body">
                     <h2>Interior Painting</h2>
-                    <a href="#">LEARN MORE</a>
+                    <div class="___section_3_btn">
+                        <a href="#" class="btn">LEARN MORE</a>
+                    </div>
                 </div>
             </div>
 
             <div class="__section_3_card __section_3_card_bg_3" data-aos="fade-right" data-aos-delay="500">
                 <div class="__section_3_card_body">
                     <h2>Interior Painting</h2>
-                    <a href="#">LEARN MORE</a>
+                    <div class="___section_3_btn">
+                        <a href="#" class="btn">LEARN MORE</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- font-size: clamp(0.5rem, 0.5rem + 17.0313vw, 20.9375rem); -->
 
 <section id="section_4">
     <img data-aos="fade-right" data-aos-delay="400" src="public/images/common/kitchen.jpg" alt="">

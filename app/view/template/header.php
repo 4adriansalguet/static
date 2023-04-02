@@ -26,11 +26,13 @@
 			<div class="header-main">
 				<div class="header-content">
 					<a href="#">FOLLOW US</a>
-					<img src="./public/images/icons/socmed.fw.png" alt="">
+					<img src="./public/images/icons/socmed.fw.png" alt="img">
 					<a href="#">CALL US TODAY</a>
-					<img src="./public/images/icons/phone.fw.png" alt="">
-					<img src="" alt="">
-					<p class="tel">(408) 413-9093</p>
+					
+					<a href="tel:(408) 413-9093" class="tel">
+						<img src="./public/images/icons/phone.fw.png" alt="img">
+						(408) 413-9093
+					</a>
 				</div>
 			</div>
 		</div>
@@ -38,7 +40,7 @@
 		<div id="menu">
 			<div class="menu-main">
 				<div class="menu-content">
-					<img src="./public/images/icons/logo.fw.png" alt="">
+					<img src="./public/images/icons/logo.fw.png" alt="img">
 					<nav>
 						<ul>
 			                <li <?php $this->helpers->isActiveMenu("home"); ?> class="btn"><a  href="home#content">HOME</a></li>

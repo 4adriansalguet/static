@@ -28,12 +28,12 @@
 		</div>
 
 		<div class="payment_container">
-			<div data-aos="fade-right" data-aos-delay="300" class="payment_choices">
+			<div data-aos="fade-left" data-aos-delay="300" class="payment_choices">
 				<h5>WE ACCEPT</h5>
 				<img src="./public/images/icons/payments.fw.png" alt="">
 			</div>
 
-			<div data-aos="fade-left" data-aos-delay="300" class="soc_med">
+			<div data-aos="fade-right" data-aos-delay="300" class="soc_med">
 				<h5>FOLLOW US:</h5>
 				<img src="./public/images/icons/socmed.fw.png" alt="">
 			</div>

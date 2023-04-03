@@ -1158,6 +1158,15 @@ header .tel{
     .___section_3_container .red_line {
         width: 70px;
     }
+    .footer_container .footer-des img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer_container .contact_information img {
+        width: 15%;
+    }
 }
 
 @media screen and (max-width: 351px) {
@@ -1169,4 +1178,3 @@ header .tel{
         margin-left: auto;
     }
 }
-

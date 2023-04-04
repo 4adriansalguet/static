@@ -42,7 +42,7 @@
 
 	<div class="menu_footer_container">
 		<div class="menu_choices">
-			<a <?php $this->helpers->isActiveMenu("home"); ?> class="home_menu" href="#">HOME</a>
+			<a <?php $this->helpers->isActiveMenu("home"); ?> href="home#content">HOME</a>
 			<a href="#">ABOUT US</a>
 			<a href="#">SERVICES</a>
 			<a href="#">GALLERY</a>
@@ -51,7 +51,7 @@
 	</div>
 
 	<div class="copyright">
-		<h5>GARCIA PAINTING © 2020. ALL RIGHTS RESERVED</h5>
+		<p>GARCIA PAINTING © 2020. ALL RIGHTS RESERVED</p>
 	</div>
 </section>
 
